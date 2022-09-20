@@ -2,13 +2,11 @@
 
 int main(void)
 {
-	char c;
-	int i;
+	char abc;
 	
-	printf("input a number: ");
-	scanf("%c", &c);
+	printf("input a alphabet: ");
+	scanf("%c", &abc);
 	
-	i=c-'0';
-	printf("The input number is %i\n", i);
+	printf("The next character of %c (%d) is %c (%d)\n", abc, abc, abc+1, abc+1);
 	return 0;
 }
